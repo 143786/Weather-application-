@@ -53,3 +53,54 @@ body {
 .search button img {
   width: 20px;
 }
+
+.weather-icon {
+  width: 180px;
+  margin-top: 25px;
+}
+
+.weather h1 {
+  font-size: 90px;
+  font-weight: 600;
+}
+
+.weather h2 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: -15px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  margin-top: 50px;
+}
+.coll {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.coll img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.humidity,
+.wind {
+  font-size: 25px;
+  margin-top: -8px;
+}
+
+.weather {
+  display: none;
+}
+.error {
+  text-align: left;
+  margin-left: 15px;
+  font-size: 15px;
+  margin-top: 15px;
+  display: none;
+}
